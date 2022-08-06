@@ -1,4 +1,4 @@
-- Redux Cart. ReduxToolkit. Async and side effects in Redux
+- Redux Cart. ReduxToolkit. Async and side effects in Redux. Thunk.
 
 # Getting Started with Create React App
 
