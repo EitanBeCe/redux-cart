@@ -10,7 +10,7 @@ let isInitial = true; // For not to post data at the 1st time
 
 function App() {
   const dispatch = useDispatch();
-  const showCart = useSelector((state) => state.ui.cartIsVisible);
+  // const showCart = useSelector((state) => state.ui.cartIsVisible);
   const cart = useSelector((state) => state.cart);
   const notification = useSelector((state) => state.ui.notification);
 
@@ -40,7 +40,8 @@ function App() {
         />
       )}
       <Layout>
-        {showCart && <Cart />}
+        {/* {showCart && <Cart />} */}
+        <Cart />
         <Products />
       </Layout>
     </>

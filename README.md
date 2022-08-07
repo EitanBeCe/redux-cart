@@ -1,6 +1,7 @@
 - A side project - Redux Cart. User can add and remove items to cart. Items are sent to Firebase, and they are stored there.
 - ReduxToolkit. Async and side effects in Redux. useEffect and Thunk.
 - configureStore, createSlise, useDispatch, useSelector.
+- CSSTransition.
 
 # Getting Started with Create React App
 
