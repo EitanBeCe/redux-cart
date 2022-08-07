@@ -6,7 +6,7 @@ import Products from "./components/Shop/Products";
 import Notification from "./components/UI/Notifications";
 import { fetchCartData, sendCartData } from "./store/cart-actions";
 
-let isInitial = true; // For not to post date at the 1st time
+let isInitial = true; // For not to post data at the 1st time
 
 function App() {
   const dispatch = useDispatch();
