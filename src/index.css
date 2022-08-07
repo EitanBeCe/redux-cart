@@ -31,12 +31,9 @@ button:active {
 }
 
 .cartOpen {
-  opacity: 1;
-  transition: all 0.9s;
   animation: cartIn 0.7s ease-out forwards;
 }
 .cartClose {
-  opacity: 0;
   height: 0;
   animation: cartOut 0.7s ease-out forwards;
 }
