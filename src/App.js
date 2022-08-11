@@ -26,6 +26,7 @@ function App() {
       return;
     }
     if (cart.changed) {
+      // Thunk dispatch
       dispatch(sendCartData(cart));
     }
   }, [cart, dispatch]);
